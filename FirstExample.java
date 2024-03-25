@@ -126,13 +126,64 @@ public static void main(String[] args) {
     // JAVA SWITCH CASE STATEMENT.
      java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-        System.out.println("Who is the current President of Nigeria?");
-        String name = scanner.nextLine();
+        // System.out.println("Who is the current President of Nigeria?");
+        // String name = scanner.nextLine();
 
-        if (name.equals("Tinubu")) {
-            System.out.println("Correct! The current President of Nigeria is Bola Ahmed Tinubu.");
-        } else {
-            System.out.println("Incorrect. The current President of Nigeria is Bola Ahmed Tinubu.");
+        // if (name.equals("Tinubu")) {
+        //     System.out.println("Correct! The current President of Nigeria is Bola Ahmed Tinubu.");
+        // } else {
+        //     System.out.println("Incorrect. The current President of Nigeria is Bola Ahmed Tinubu.");
+        // }
+
+        // String answer;
+        // System.out.println(x:  "The current President of Nigeria is _____ (a) Buhari  (b) Tinubu   (c) Jonathan (d) Obasanjo");
+        // Sting option = scanner.nextLine();
+
+        // switch(option){
+        //     case "a":
+        //     System.out.println(x : "Wrong!");
+        //     break;
+
+        //     case "b":
+        //     System.out.println(x : "Correct!");
+        //     break;
+
+        //     case "c":
+        //     System.out.println(x : "Wrong!");
+        //     break;
+
+        //     case "d":
+        //     System.out.println(x : "Wrong!");
+        //     break;
+
+        //     default :
+        //     System.out.println(x : "Wrong!");
+        //     break;
+        // } 
+
+         System.out.println("The current President of Nigeria is _____ (a) Buhari  (b) Tinubu   (c) Jonathan (d) Obasanjo");
+        String answer = scanner.nextLine();
+
+        switch (answer.toLowerCase()) {
+            case "a":
+                System.out.println("Wrong!");
+                break;
+
+            case "b":
+                System.out.println("Correct!");
+                break;
+
+            case "c":
+                System.out.println("Wrong!");
+                break;
+
+            case "d":
+                System.out.println("Wrong!");
+                break;
+
+            default:
+                System.out.println("Invalid option!");
+                break;
         }
     
 }
