@@ -1,0 +1,2 @@
+The process of creating an object is called instantiation.
+Constructor us the one that initialize and build before the application will be ready.
