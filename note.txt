@@ -1,2 +1,24 @@
 The process of creating an object is called instantiation.
 Constructor us the one that initialize and build before the application will be ready.
+
+Access Modifier for class.
+
+
+
+Access Modifier for Constructor, Attribute, Methods.
+ -public.
+ -private.
+ -default.
+ -protected.
+
+ Non-Access Modifier for classes.
+ -final,
+ -Abstract.
+ 
+ Non-Access Methods and Abstract.
+ final, 
+ static,
+ Abstract,
+ transient,
+ synchronized,
+ volatile.
