@@ -14,7 +14,7 @@ public class QuizAss {
         // System.err.println(names);
         // System.err.println("My name is " + name);
 
-        }
+    }
 
     // public static void main
     public static void main(String[] args) {
