@@ -17,7 +17,6 @@ public class JavaHashSet {
         // method.
         // course_instructor.clear(); //To clear
         // course_instructor.size(); //To get the size.
-
         for (String names : classNames) {
             System.out.println(names);
         }
