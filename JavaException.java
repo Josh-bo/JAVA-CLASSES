@@ -1,10 +1,4 @@
-import java.util.Scanner;
-// import java.util.InputMismatchException;
-
-public class JavaException {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+e        Scanner scanner = new Scanner(System.in);
         try {
             for (int i = 0; i < 5; i++) {
                 System.out.println("Enter value 1");
@@ -29,4 +23,4 @@ public class JavaException {
             scanner.close();
         }
     }
-}
+}xce
